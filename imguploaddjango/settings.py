@@ -24,9 +24,10 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'c(!+(s=gy$t8sz-nwsk&f59^h!i3_*6nfzt3w&b%!j5)e*x!(0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = [',vercel.app']
+ALLOWED_HOSTS = ['localhost',saikrishna5626.pythonanywhere.com]
+
 
 
 # Application definition
@@ -134,4 +135,3 @@ STATIC_URL = '/static/'
 STATIC_ROOT= os.path.join(BASE_DIR, 'static')
 MEDIA_URL = 'images/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
-
