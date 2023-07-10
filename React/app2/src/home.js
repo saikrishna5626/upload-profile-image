@@ -53,7 +53,7 @@ const Home = () => {
           console.log('Uploading cropped image:', file);
           const formData = new FormData();
           formData.append('image', file);
-          axios.post('http://127.0.0.1:8000/imgup/', formData).
+          axios.post('https://saikrishna5626.pythonanywhere.com/imgup/', formData).
             then(res => {
               alert("Image uploaded Succesfully");
               openModal();
