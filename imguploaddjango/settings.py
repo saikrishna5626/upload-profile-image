@@ -26,7 +26,7 @@ SECRET_KEY = 'c(!+(s=gy$t8sz-nwsk&f59^h!i3_*6nfzt3w&b%!j5)e*x!(0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost',saikrishna5626.pythonanywhere.com]
+ALLOWED_HOSTS = ['localhost','saikrishna5626.pythonanywhere.com']
 
 
 
