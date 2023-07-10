@@ -19,9 +19,11 @@ from .views import Check
 from imagehandler.views import ImageUp
 from django.conf import settings
 from django.conf.urls.static import static
+from .views import hello
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', hello, name='hello'),
     path('check/', Check.as_view()),
     path('imgup/', ImageUp.as_view()),
     path('img/', ImageUp.as_view())
