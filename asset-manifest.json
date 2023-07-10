@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/upload-profile-image/static/css/main.ef8eb439.css",
+    "main.js": "/upload-profile-image/static/js/main.4db8bfb8.js",
+    "index.html": "/upload-profile-image/index.html",
+    "main.ef8eb439.css.map": "/upload-profile-image/static/css/main.ef8eb439.css.map",
+    "main.4db8bfb8.js.map": "/upload-profile-image/static/js/main.4db8bfb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef8eb439.css",
+    "static/js/main.4db8bfb8.js"
+  ]
+}
